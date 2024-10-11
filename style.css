@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 40px;
+}
+
+body form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+body button {
+    width: 300px;
+    border: none;
+    background: blue;
+    color: white;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkblue;
+    transition: 0.3s;
+}
